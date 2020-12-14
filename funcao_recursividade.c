@@ -13,10 +13,8 @@ int main(){
     int i, a, result;
     printf("informe valor: "); scanf("%d", &a);
     result = recursiv(a);
-
-    //for(i=a;i>0;i--){
+    
         printf("\n%d", result);
-    //}
-
+    
 return 0;
 }
