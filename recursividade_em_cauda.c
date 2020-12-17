@@ -17,7 +17,7 @@ int main(){
 
     printf("\n Digite um numero inteiro positivo : ");
     scanf("%d", &n);
-    resultado = fatorialCauda(n);//fazendo a primeira chamada da função
+    resultado = fatorialCauda(n); //fazendo a primeira chamada da função
     
     printf("\n Resultado do fatorial = %d", resultado);
 return 0;

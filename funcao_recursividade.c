@@ -14,7 +14,12 @@ int main(){
     printf("informe valor positivo: "); scanf("%d", &a);
     result = recursiv(a);
     
+<<<<<<< HEAD
     printf("%d! = %d", a, result);
 
+=======
+        printf("\n%d", result);
+    
+>>>>>>> 87b96a2542b3b45efcbe295f5b32cdb042b1ee54
 return 0;
 }
